@@ -14,16 +14,27 @@ Trabajo practico para parcial de React Native.
 
 ## Tabla de contenidos
 
+- [Video explicativo](#video-explicativo)
 - [Caracteristicas](#caracteristicas)
 - [Stack](#stack)
 - [Cumplimiento de requisitos del parcial](#cumplimiento-de-requisitos-del-parcial)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Instalacion y ejecucion](#instalacion-y-ejecucion)
 - [Como probar la app](#como-probar-la-app)
-- [Subir el proyecto a GitHub](#subir-el-proyecto-a-github)
 - [Generar APK](#generar-apk)
 - [Troubleshooting](#troubleshooting)
-- [Licencia](#licencia)
+
+---
+
+## Video explicativo
+
+Mira el video demo del funcionamiento de la app y la explicacion del codigo en YouTube:
+
+[![Ver demo en YouTube](https://img.shields.io/badge/YouTube-Ver_demo-FF0000?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/shorts/IuGmmNgjPQc?feature=share)
+
+> Link: https://youtube.com/shorts/IuGmmNgjPQc?feature=share
+>
+
 
 ---
 
@@ -147,6 +158,27 @@ La app se descarga y abre automaticamente.
 
 ---
 
+## Subir el proyecto a GitHub
+
+```bash
+# Inicializar repo (si todavia no esta)
+git init
+git add .
+git commit -m "Primer commit: app de recordatorio de medicacion"
+
+# Crear el repo vacio en https://github.com/new
+# (no agregar README ni .gitignore desde la web, ya estan aca)
+
+# Linkear y subir
+git branch -M main
+git remote add origin https://github.com/Dave1246/recordatorio-medicacion.git
+git push -u origin main
+```
+
+> El `.gitignore` ya excluye `node_modules/`, `.expo/`, builds y otros archivos pesados, asi que el repo queda liviano (~100 KB).
+
+---
+
 ## Generar APK
 
 ### Opcion A - EAS Build (recomendada, en la nube)
@@ -235,7 +267,7 @@ trigger: {
   ```
 
 ### Errores raros con `metro` / `TerminalReporter`
-Recrear el proyecto desde cero usando:
+Recrear el proyecto desde cero usando el [paquete auto-setup](#instalacion-y-ejecucion) o:
 ```bash
 npx create-expo-app@latest mi-app --template blank
 # despues copiar App.js, screens/ y components/ adentro
