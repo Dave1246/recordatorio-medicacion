@@ -246,7 +246,7 @@ trigger: {
   ```
 
 ### Errores raros con `metro` / `TerminalReporter`
-Recrear el proyecto desde cero usando el [paquete auto-setup](#instalacion-y-ejecucion) o:
+Recrear el proyecto desde cero usando:
 ```bash
 npx create-expo-app@latest mi-app --template blank
 # despues copiar App.js, screens/ y components/ adentro
