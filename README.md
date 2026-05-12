@@ -158,27 +158,6 @@ La app se descarga y abre automaticamente.
 
 ---
 
-## Subir el proyecto a GitHub
-
-```bash
-# Inicializar repo (si todavia no esta)
-git init
-git add .
-git commit -m "Primer commit: app de recordatorio de medicacion"
-
-# Crear el repo vacio en https://github.com/new
-# (no agregar README ni .gitignore desde la web, ya estan aca)
-
-# Linkear y subir
-git branch -M main
-git remote add origin https://github.com/Dave1246/recordatorio-medicacion.git
-git push -u origin main
-```
-
-> El `.gitignore` ya excluye `node_modules/`, `.expo/`, builds y otros archivos pesados, asi que el repo queda liviano (~100 KB).
-
----
-
 ## Generar APK
 
 ### Opcion A - EAS Build (recomendada, en la nube)
