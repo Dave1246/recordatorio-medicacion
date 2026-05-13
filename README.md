@@ -30,9 +30,9 @@ Trabajo practico para parcial de React Native.
 
 Mira el video demo del funcionamiento de la app y la explicacion del codigo en YouTube:
 
-[![Ver demo en YouTube](https://img.shields.io/badge/YouTube-Ver_demo-FF0000?logo=youtube&logoColor=white&style=for-the-badge)](https://youtube.com/shorts/IuGmmNgjPQc?feature=share)
+[![Ver demo en YouTube](https://img.shields.io/badge/YouTube-Ver_demo-FF0000?logo=youtube&logoColor=white&style=for-the-badge)]([https://youtube.com/shorts/IuGmmNgjPQc?feature=share](https://youtube.com/shorts/wnAUu3lU390))
 
-> Link: https://youtube.com/shorts/IuGmmNgjPQc?feature=share
+> Link: [https://youtube.com/shorts/IuGmmNgjPQc?feature=share](https://youtube.com/shorts/wnAUu3lU390)
 >
 
 
